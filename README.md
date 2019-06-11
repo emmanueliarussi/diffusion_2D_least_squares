@@ -1,6 +1,6 @@
-# Least Squares for 2D Color Diffusion  
+# Least Squares for 2D Color Diffusion in Python
 
-Many graphics problems can be seen as finding the best set of parameters for a model, given some data. In particular, 2D diffusion consist on propagating color constrains smoothly everywhere over a target image. 
+Many Computer Graphics problems can be seen as finding the best set of parameters for a model, given some data. In particular, 2D diffusion consist on propagating color constrains smoothly everywhere over a target image. 
 
 ![Diffusion result usign 4 input colors.](https://github.com/emmanueliarussi/diffusion_2D_least_squares/blob/master/interpolation_sample.png)
 
