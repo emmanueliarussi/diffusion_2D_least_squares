@@ -2,7 +2,7 @@
 
 Many graphics problems can be seen as finding the best set of parameters for a model, given some data. In particular, 2D diffusion consist on propagating color constrains smoothly everywhere over a target image. 
 
-![Diffusion result usign 4 input colors.][https://github.com/emmanueliarussi/diffusion_2D_least_squares/blob/master/interpolation_sample.png]
+![Diffusion result usign 4 input colors.](https://github.com/emmanueliarussi/diffusion_2D_least_squares/blob/master/interpolation_sample.png)
 
 Color constraints for each color channel are specified as follows: 
 ```python
