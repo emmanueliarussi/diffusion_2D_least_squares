@@ -1,9 +1,9 @@
 # Least Squares for 2D Color Diffusion  
 
 Many graphics problems can be seen as finding the best set of parameters for a model, given some data. In particular, 2D diffusion consist on propagating color constrains smoothly everywhere over a target image. 
-<p align="center">
-  <img width="460" height="300" src="https://github.com/emmanueliarussi/diffusion_2D_least_squares/blob/master/interpolation_sample.png">
-</p>
+
+![Diffusion result usign 4 input colors]["https://github.com/emmanueliarussi/diffusion_2D_least_squares/blob/master/interpolation_sample.png"]
+
 Color constraints for each color channel are specified as follows: 
 ```python
 constraints_r = [(15,30,255,10.),(30,15,127,10.),(45,30,255,10.),(30,45,128,10.)]
